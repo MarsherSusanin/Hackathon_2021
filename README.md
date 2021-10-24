@@ -16,8 +16,27 @@
 - Микросервисная архитектура
 - Квантовые вычисления: python, qboard
 - API middleware: flask
-- Мобильное приложение: react, ioniq, redux
-- Мобильное приложение бэк: node.js
+- Мобильное приложение: react, ionс, redux
+- Мобильное приложение бэк: node.js express.js
+
+## Инструкция по развертыванию приложения
+
+Для развертывания приложения должен быть установлен node.js (https://nodejs.org/en/)
+
+### backend
+
+- $cd server
+- $npm install
+- $cd ../
+- $node start ./server
+
+### frontend
+
+- $cd prototype
+- $npm i
+- $npm start
+
+
 
 ## Демо
 [Доступно по ссылке](https://quant.pena.marketing)
