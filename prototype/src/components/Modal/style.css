@@ -1,0 +1,48 @@
+.modal {
+  background-color: white;
+  display: flex;
+  padding: 20px;
+  padding-bottom: 24px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.modal__wrapper {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 1024px;
+  margin: auto;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  text-align: left;
+}
+
+.modal__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+}
+
+.modal__text {
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+.modal__start {
+  margin-right: auto;
+  margin-top: 48px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: -0.005em;
+}

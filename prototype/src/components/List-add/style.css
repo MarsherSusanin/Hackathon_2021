@@ -1,0 +1,48 @@
+.listAdd__wrapper {
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  padding: 40px;
+  border: 1px solid #f5f5f5;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 80px;
+}
+
+.trips__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -3px;
+}
+
+.trips__title {
+  font-family: Noto Sans;
+  line-height: 100%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  color: #131d29;
+  margin-top: 64px;
+  margin-bottom: 16px;
+}
+
+.listAdd__button {
+  margin-top: 48px;
+  width: 100%;
+  border: none;
+  background-color: #4f6262;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+}

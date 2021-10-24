@@ -1,0 +1,81 @@
+.pointRoute {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  border-color: #f2f2f2;
+  padding-bottom: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.005em;
+  background-color: #f5f5f5;
+  min-height: 94px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.pointRoute__number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #1743d7;
+  font-size: 18px;
+  line-height: 40px;
+  color: white;
+}
+
+.pointRoute__header {
+  justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 8px;
+}
+
+.pointRoute__info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #9b9b9b;
+  margin-bottom: 10px;
+}
+
+.pointRoute__button {
+  border: none;
+  background: none;
+  color: #1743d7;
+  margin: 0 auto;
+}
+
+.pointRoute__number--station {
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  border-radius: 50%;
+  color: white;
+  margin: 5px;
+  background-color: #884e35;
+}
+
+.pointRoute__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 60px;
+}
+
+.pointRoute__station {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
