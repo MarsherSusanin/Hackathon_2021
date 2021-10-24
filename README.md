@@ -14,7 +14,7 @@
 
 ## Стек:
 - Микросервисная архитектура
-- Квантовые вычисления: python, qboard, qiskit
+- Квантовые вычисления: python, qboard
 - API middleware: flask
 - Мобильное приложение: react, ioniq, redux
 - Мобильное приложение бэк: node.js
